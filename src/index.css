@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply leading-[24px] rounded-[200px] px-[12px] lg:px-[24px] text-[12px] lg:text-[16px] py-[8px] hover:bg-gradient-to-tr from-button-hover to-button-hover ease-linear duration-75;
+}
+
+.btn-lg {
+  @apply leading-[24px] rounded-[200px] px-[12px] lg:px-[24px] text-[16px] py-[16px] hover:bg-gradient-to-tr from-button-hover to-button-hover  active:bg-green active:text-light-gray ease-linear duration-75;
+}
+
+.block-outline {
+  @apply py-[56px] lg:px-[144px] align-middle flex flex-col items-center justify-center px-20;
+}
+
+.active-dots {
+  @apply w-[52px] bg-green;
+}
+
+.passive-dots {
+  @apply w-[13px] bg-light-green;
+}
